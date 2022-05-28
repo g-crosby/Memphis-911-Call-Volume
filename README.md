@@ -6,9 +6,9 @@ The data provided was found on the Memphis Data Hub (https://data.memphistn.gov/
 
 The function used to find the optimal number of calls answered per hour to acheive the 95% answer rate was:
   
-  _(((((x * .95) / 30.5) * (z+t)) / 60) / 24) / a
+  _(((((x * .95) / 30.5) * (z+t)) / 60) / 24) / a_
   
-  _where x = call volume, z = average call length, t = total wait time, a = number of dispatchers working for a given hour
+  _where x = call volume, z = average call length, t = total wait time, a = number of dispatchers working for a given hour_
   
 
 I created an excel dashboard to provide an overview of the Memphis Police Deparment dispatchers and how successful they have been in reaching their goals. You can download the workbook where there are chart sliders that show how call length and number of dispatchers on duty, have varying degrees of magnitude on the amount of calls needed by each dispatcher. I have also provided a .png of the dashboard itself, in case you didn't want to download the excel file.  
