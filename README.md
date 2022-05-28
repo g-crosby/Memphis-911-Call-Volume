@@ -10,5 +10,6 @@ The function used to find the optimal number of calls answered per hour to achei
   
   _where x = monthly call volume, z = average call length, t = total wait time, a = number of dispatchers working for a given hour_
   
+  _The obvious short comings of this function is that it assumes an even distribution of calls for all 24 hours in a day, and we know that's not the case. What it does show is the variation that is observed for different expected call volumes._ 
 
 I created an excel dashboard to provide an overview of the Memphis Police Deparment dispatchers and how successful they have been in reaching their goals. You can download the workbook where there are chart sliders that show how call length and number of dispatchers on duty, have varying degrees of magnitude on the amount of calls needed by each dispatcher. I have also provided a .png of the dashboard itself, in case you didn't want to download the excel file.  
