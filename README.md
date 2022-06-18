@@ -8,7 +8,11 @@ The function used to find the optimal number of calls answered per hour to achei
   
   _(((((x * .95) / 30.5) * (z+t)) / 60) / 24) / a_
   
-  _where x = monthly call volume, z = average call length, t = total wait time, a = number of dispatchers working for a given hour_
+  _where: 
+  x = monthly call volume,
+  z = average call length, 
+  t = total wait time, 
+  a = number of dispatchers working for a given hour_
   
   _The obvious short comings of this function is that it assumes an even distribution of calls for all 24 hours in a day, and we know that's not the case. What it does show is the variation that is observed for different expected call volumes, for an average hour in a given month._ 
 
